@@ -30,7 +30,7 @@ Clients always connect to `w26server`. The server routes connections in this ord
 | 1, 2 | w26server |
 | 3, 4 | mirror1 |
 | 5, 6 | mirror2 |
-| 7, 8, 9, 10, ... | w26server, mirror1, mirror2 (repeating) |
+| 7, 8, 9, 10, ... | w26server, mirror1, mirror2 (alternating) |
 
 When a connection is routed to a mirror, `w26server` forks a child that acts as a transparent relay and all data flows between the client and the mirror through the relay socket.
 
