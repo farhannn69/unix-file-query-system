@@ -109,6 +109,6 @@ client.c      Interactive client shell
 
 ---
 
-### Note
+## Note
 
-This application was made as final project requirement of the COMP 8567 (Advanced Systems Programming) course at the University of Windsor.
+This application was developed as the final project requirement of the COMP 8567 (Advanced Systems Programming) course at the University of Windsor.
